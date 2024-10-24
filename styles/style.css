@@ -104,6 +104,7 @@ padding-bottom: 5px;
 
 .search-form__checkbox-list .search-form__label:hover {
   text-decoration: underline;
+  cursor: pointer;
 }
 
 .search-form__checkbox-list .search-form__label:has(:focus-visible) {
@@ -221,7 +222,7 @@ input::placeholder {
 
 .title {
   margin-bottom: 26px;
-  font-family: Oswald, Impact, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 75px;
@@ -236,7 +237,7 @@ input::placeholder {
 .content__list {
   position: relative;
   height: 298px;
-  overflow: scroll;
+  overflow-y: auto;
 }
 
 .content__list-item:not(:last-child) {
@@ -282,7 +283,7 @@ input::placeholder {
 }
 
 .content__video-card-title {
-  font-family: Oswald, Impact, sans-serif;
+  font-family: Oswald, Arial, sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
